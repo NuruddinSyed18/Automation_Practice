@@ -16,7 +16,7 @@ public class FluentWait {
 WebDriver driver=new ChromeDriver();
 		
 		//declaration
-		 Wait<WebDriver> mywait = new FluentWait<WebDriver>(driver)
+		 /*Wait<WebDriver> mywait = new FluentWait<WebDriver>(driver)
 			       .withTimeout(Duration.ofSeconds(10))
 			       .pollingEvery(Duration.ofSeconds(5))
 			       .ignoring(NoSuchElementException.class);
@@ -34,7 +34,7 @@ WebDriver driver=new ChromeDriver();
 			   });
 
 		   
-		 txtusername.sendKeys("Admin");
+		 txtusername.sendKeys("Admin");*/
 	}
 
 }
