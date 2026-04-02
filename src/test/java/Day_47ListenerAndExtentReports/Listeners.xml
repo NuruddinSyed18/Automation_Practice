@@ -1,0 +1,12 @@
+<suite name="Suite">
+<listeners>
+<listener class-name="Day_47ListenersAndExtentReports.MyListeners"/>
+</listeners>
+<test thread-count="5" name="Test">
+<classes>
+<class name="Day_47ListenersAndExtentReports.OrangeHRM"/>
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  Suite  -->
